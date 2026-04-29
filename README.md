@@ -15,7 +15,7 @@ A clean, responsive portfolio website built with HTML, CSS, and JavaScript.
 ## Links Used
 
 - GitHub: <https://github.com/akshat29sri>
-- Dribbble: <https://dribbble.com/akshat_sri>
+- Dribbble: <https://dribbble.com/akshat-srivastava>
 
 ## Run Locally
 
