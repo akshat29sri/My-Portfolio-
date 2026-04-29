@@ -8,10 +8,10 @@
   --blue: #315fbd;
   --coral: #d86245;
   --gold: #c6912f;
-  --google-blue: #4285f4;
-  --google-red: #ea4335;
-  --google-yellow: #fbbc04;
-  --google-green: #34a853;
+  --accent-blue: #315fbd;
+  --accent-red: #d86245;
+  --accent-yellow: #c6912f;
+  --accent-green: #1f7a5a;
   --shadow: 0 24px 70px rgba(34, 42, 35, 0.13);
 }
 
@@ -81,8 +81,7 @@ img {
   display: grid;
   place-items: center;
   border: 2px solid var(--ink);
-  background:
-    linear-gradient(90deg, var(--google-blue) 0 25%, var(--google-red) 25% 50%, var(--google-yellow) 50% 75%, var(--google-green) 75%);
+  background: var(--gold);
   color: var(--ink);
   box-shadow: 4px 4px 0 var(--ink);
 }
@@ -287,7 +286,7 @@ h3 {
   background:
     linear-gradient(90deg, transparent 44%, rgba(255,255,255,0.62) 44% 56%, transparent 56%),
     linear-gradient(180deg, transparent 44%, rgba(255,255,255,0.62) 44% 56%, transparent 56%),
-    var(--google-yellow);
+    var(--accent-yellow);
   transform: rotate(10deg);
   pointer-events: none;
 }
@@ -534,19 +533,19 @@ h3 {
 .project-four {
   background:
     linear-gradient(45deg, rgba(255,255,255,0.32) 25%, transparent 25% 50%, rgba(255,255,255,0.32) 50% 75%, transparent 75%) 0 0 / 30px 30px,
-    linear-gradient(135deg, var(--google-blue), #b9d3ff);
+    linear-gradient(135deg, var(--accent-blue), #b9d3ff);
 }
 
 .project-five {
   background:
     radial-gradient(circle at 18px 18px, rgba(255,255,255,0.42) 4px, transparent 5px) 0 0 / 32px 32px,
-    linear-gradient(135deg, var(--google-yellow), #ffe7a1);
+    linear-gradient(135deg, var(--accent-yellow), #ffe7a1);
 }
 
 .project-six {
   background:
     linear-gradient(90deg, rgba(255,255,255,0.35) 3px, transparent 3px) 0 0 / 22px 22px,
-    linear-gradient(135deg, var(--google-green), #adebc2);
+    linear-gradient(135deg, var(--accent-green), #adebc2);
 }
 
 .project-seven {
@@ -558,7 +557,7 @@ h3 {
 .project-eight {
   background:
     linear-gradient(135deg, rgba(255,255,255,0.32) 25%, transparent 25%) 0 0 / 22px 22px,
-    linear-gradient(135deg, var(--google-red), #ffb1a9);
+    linear-gradient(135deg, var(--accent-red), #ffb1a9);
 }
 
 .project-content {
@@ -620,19 +619,19 @@ h3 {
 .shot-blue {
   background:
     linear-gradient(90deg, rgba(255,255,255,0.46) 2px, transparent 2px) 0 0 / 24px 24px,
-    linear-gradient(135deg, #d8e6ff, var(--google-blue));
+    linear-gradient(135deg, #d8e6ff, var(--accent-blue));
 }
 
 .shot-red {
   background:
     radial-gradient(circle at 18px 18px, rgba(255,255,255,0.5) 4px, transparent 5px) 0 0 / 32px 32px,
-    linear-gradient(135deg, #ffe5e1, var(--google-red));
+    linear-gradient(135deg, #ffe5e1, var(--accent-red));
 }
 
 .shot-green {
   background:
     linear-gradient(45deg, rgba(255,255,255,0.5) 25%, transparent 25% 50%, rgba(255,255,255,0.5) 50% 75%, transparent 75%) 0 0 / 28px 28px,
-    linear-gradient(135deg, #dff7e7, var(--google-green));
+    linear-gradient(135deg, #dff7e7, var(--accent-green));
 }
 
 .timeline {
